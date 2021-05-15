@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to eEdx"
+        android:fontFamily="sans-serif-black"
+        android:letterSpacing="0.03"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#b20217"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="40dp">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/login1"
+        android:layout_below="@+id/txt1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="25dp">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/login2"
+        android:layout_below="@+id/img1"
+        android:layout_marginStart="25dp">
+    </ImageView>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="login"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_below="@id/img2"
+        android:layout_centerInParent="true"
+        android:background="@drawable/login_background">
+    </Button>
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="signup"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_below="@id/btnlogin"
+        android:layout_centerInParent="true"
+        android:background="@drawable/login_background">
+    </Button>
+
+
+</RelativeLayout>

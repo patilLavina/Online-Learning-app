@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">eEdu</string>
+    <string name="eedu">eedu</string>
+    <string name="navigation_drawer_open">Navigation Drawer Open</string>
+    <string name="navigation_drawer_close">Navigation Drawer Close</string>
+    <string name="welcome_nback_nalice">Welcome\nBack\nAlice !</string>
+    <string name="search_your_course">Search Your Course</string>
+    <string name="categories">Categories</string>
+    <string name="java_technology">Java Technology</string>
+    <string name="total_10_courses">Total 10 Courses</string>
+    <string name="python">Python</string>
+    <string name="total_12_courses">Total 12 Courses</string>
+    <string name="login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="don_t_have_an_account_signup">Don\'t have an account? SignUp</string>
+    <string name="cloud_computing">Cloud Computing</string>
+    <string name="create_new_account">Create New Account</string>
+</resources>

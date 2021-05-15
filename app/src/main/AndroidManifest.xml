@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eedu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/eedu_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/eedu_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EEdu">
+        <activity android:name=".ScoreActivity"></activity>
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".StartQuizActivity" />
+        <activity android:name=".CertificateActivity" />
+        <activity android:name=".CourseListTopicwiseActivity" />
+        <activity android:name=".EnrollNowActivity" />
+        <activity android:name=".CoursePageActivity" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".ContactUsActivity" />
+        <activity android:name=".RateUsActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".FavouriteActivity" />
+        <activity android:name=".MyCourseActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LogIn2" />
+        <activity android:name=".LogIn" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

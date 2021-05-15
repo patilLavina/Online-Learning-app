@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "902629572407",
+    "project_id": "eedu-4803a",
+    "storage_bucket": "eedu-4803a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902629572407:android:8281f47ef85b8187d8e4b2",
+        "android_client_info": {
+          "package_name": "com.example.eedu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902629572407-f3kb59pqumu0dsnjdeqr84kfjp4hp8hv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eedu",
+            "certificate_hash": "d3d7d2188043c5da0092ac1c6e678b3df3f08fed"
+          }
+        },
+        {
+          "client_id": "902629572407-gpfr4e4bb39f6rfn1nnm2uern7akhhlh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFNrphVVR7LTIhC2P_ua7pBgnpWXJ5-oY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902629572407-gpfr4e4bb39f6rfn1nnm2uern7akhhlh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

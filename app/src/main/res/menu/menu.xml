@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"></item>
+
+        <item
+            android:id="@+id/mycourse"
+            android:icon="@drawable/ic_mycourse"
+            android:title="My Courses"></item>
+
+        <item
+            android:id="@+id/favourite"
+            android:icon="@drawable/ic_favourite"
+            android:title="Favourite"></item>
+
+    </group>
+
+    <item android:title="Profile">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_account_circle"
+                    android:title="Profile"></item>
+
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Logout"></item>
+
+            </group>
+        </menu>
+
+    </item>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/rate"
+                android:icon="@drawable/ic_star_rate"
+                android:title="Rate Us"></item>
+
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/ic_contact_mail"
+                android:title="Contact Us"></item>
+            </group>
+        </menu>
+
+    </item>
+
+
+</menu>

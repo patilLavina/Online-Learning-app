@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn2">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_back_space"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:fontFamily="sans-serif-black"
+        android:letterSpacing="0.03"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#008080"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/login3"
+        android:layout_below="@+id/txt1"
+        android:contentDescription="@string/app_name"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/img1">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:background="@drawable/white_rectangle_background"
+            android:hint="Enter Username"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/light_grey2"
+            app:boxStrokeWidthFocused="2dp"
+            app:startIconDrawable="@drawable/ic_account_circle"
+            app:startIconTint="@color/black"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/black"
+            android:layout_gravity="center">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/username"
+                android:layout_width="320dp"
+                android:background="#bbffff"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/black">
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:background="@drawable/white_rectangle_background"
+            android:hint="Enter Password"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/light_grey2"
+            app:boxStrokeWidthFocused="2dp"
+            app:startIconDrawable="@drawable/ic_password"
+            app:startIconTint="@color/black"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/black"
+            android:layout_gravity="center">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:background="#bbffff"
+                android:textColor="@color/black"
+                android:inputType="textPassword">
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_password"
+            android:layout_gravity="end"
+            android:layout_marginEnd="38dp"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            android:textColor="#008080">
+        </TextView>
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:backgroundTint="#008080">
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/create_account"
+            android:text="@string/create_new_account"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="#008080">
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartQuizActivity">
+
+    <RelativeLayout
+        android:id="@+id/quiz_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/quiz_bg"
+            android:layout_margin="8dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Quiz"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp">
+        </TextView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/quiz_header">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get your certificate by completing this quiz"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif"
+           android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note:"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="25sp"
+            android:textColor="@color/black"/>
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I am ready"
+            android:textColor="#027EE6"
+            android:layout_marginStart="30dp">
+        </CheckBox>
+
+        <Button
+            android:id="@+id/start_quiz"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Start Quiz"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:backgroundTint="#084751">
+        </Button>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

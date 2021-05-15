@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileActivity">
+
+    <RelativeLayout
+        android:id="@+id/pro_head"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/teal_bg">
+
+        <ImageView
+            android:id="@+id/update_imageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_account_circle"
+            android:layout_centerHorizontal="true"
+            android:background="@color/white"
+            android:layout_marginTop="65dp" />
+
+    </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/pro_head">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Profile"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#008080"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"/>
+
+            <EditText
+                android:id="@+id/fname"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/white_rectangle_background"
+                android:backgroundTint="#bbffff"
+                android:hint="First Name"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#008080"
+                android:textSize="20sp"
+                android:paddingStart="20dp"
+                android:layout_marginTop="10dp"
+                tools:ignore="RtlSymmetry">
+            </EditText>
+
+            <EditText
+                android:id="@+id/lname"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/white_rectangle_background"
+                android:backgroundTint="#bbffff"
+                android:hint="Last Name"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#008080"
+                android:textSize="20sp"
+                android:paddingStart="20dp"
+                tools:ignore="RtlSymmetry"
+                android:layout_marginTop="10dp">
+            </EditText>
+
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:id="@+id/save"
+                android:backgroundTint="#008080"
+                android:textColor="@color/white"
+                android:text="Save"
+                android:fontFamily="sans-serif-black"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:id="@+id/chane_password"
+                android:backgroundTint="#008080"
+                android:textColor="@color/white"
+                android:text="Change Password"
+                android:fontFamily="sans-serif-black"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"/>
+
+
+        </LinearLayout>
+
+
+
+
+</RelativeLayout>

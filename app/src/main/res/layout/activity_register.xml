@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/register"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/full_name"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:background="@drawable/white_rectangle_background"
+                    android:hint="Full Name"
+                    app:hintTextColor="@color/black"
+                    app:boxStrokeColor="@color/light_grey2"
+                    app:boxStrokeWidthFocused="2dp"
+                    app:startIconDrawable="@drawable/ic_edit"
+                    app:startIconTint="@color/black"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@color/black"
+                    android:layout_gravity="center">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="320dp"
+                        android:background="#bbffff"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black">
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/email"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:background="@drawable/white_rectangle_background"
+                    android:hint="Enter Email id"
+                    app:hintTextColor="@color/black"
+                    app:boxStrokeColor="@color/light_grey2"
+                    app:boxStrokeWidthFocused="2dp"
+                    app:startIconDrawable="@drawable/ic_email"
+                    app:startIconTint="@color/black"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@color/black"
+                    android:layout_gravity="center">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="320dp"
+                        android:background="#bbffff"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black">
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/password"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:background="@drawable/white_rectangle_background"
+                    android:hint="Password"
+                    app:hintTextColor="@color/black"
+                    app:boxStrokeColor="@color/light_grey2"
+                    app:boxStrokeWidthFocused="2dp"
+                    app:startIconDrawable="@drawable/ic_password"
+                    app:startIconTint="@color/black"
+                    app:endIconMode="password_toggle"
+                    app:endIconTint="@color/black"
+                    android:layout_gravity="center">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="320dp"
+                        android:background="#bbffff"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:inputType="textPassword">
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/confirm_password"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:background="@drawable/white_rectangle_background"
+                    android:hint="Confirm Password"
+                    app:hintTextColor="@color/black"
+                    app:boxStrokeColor="@color/light_grey2"
+                    app:boxStrokeWidthFocused="2dp"
+                    app:startIconDrawable="@drawable/ic_password"
+                    app:startIconTint="@color/black"
+                    app:endIconMode="password_toggle"
+                    app:endIconTint="@color/black"
+                    android:layout_gravity="center">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="320dp"
+                        android:background="#bbffff"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:inputType="textPassword">
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="signup"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/btn_register"
+                    android:backgroundTint="#008080"
+                    android:layout_marginTop="20dp">
+                </Button>
+
+                <TextView
+                    android:id="@+id/reg_signin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Login to your account"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#008080"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="30dp">
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
